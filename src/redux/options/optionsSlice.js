@@ -10,10 +10,13 @@ const optionsSlice = createSlice({
     reducers: {
         selected: (state, action) => {
             const { id } = action.payload;
-            const option = state.options.find(option => option.id === id);
-            if (option) {
-                option.selected = !option.selected;
-            }
+
+            state.options = state.options.map(option => {
+                if (option.id === id) {
+                    return { ...option, selected: !option.selected };
+                }
+                return { ...option, selected: false }; // Deselect others
+            });
         },
     }
 });
