@@ -1,12 +1,91 @@
-# React + Vite
+# SKIP HIRE PROJECT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A complete redesign of the “Choose Your Skip Size” page from the Garden Waste booking flow (found at https://wewantwaste.co.uk), built with React and Tailwind CSS for a clean, modern, and responsive experience.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript
+- Tailwind CSS
+- Vite
+
+## Approaches & Design
+
+### Clean, Reusable Components**:
+I broke down the UI into purposeful, reusable React components (`SkipCard`, `SkipList`) improved maintainability and readability.
+
+- `SkipCard` for display logic and styling  
+- `SkipList` to map through provided data
+
+### **Responsive Design**:  
+I Leveraged Tailwind’s utility classes for quick iteration and responsive styling. Custom theme options kept the design consistent.
+
+### **Data Handling & API Integration**
+I Abstracted API calls into `redux store`, separating concerns and centralizing fetch logic. Skip data is dynamically fetched and handled with `useEffect` and `useState`.
+
+- Used Tailwind CSS to ensure fluid layouts across mobile/tablet/desktop breakpoints  
+- Card grid adjusts columns and spacing responsively
+
+- **Improved UI/UX**:  
+- Modern card design with shadows, rounded corners, and clear CTA  
+- Price and size details emphasized  
+- Interactive hover/focus states boost accessibility
+
+
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+```
+  node js
+  npm
+
+```
+### Setup
+Clone the repository and change the directory to garden-waste
+
+``` 
+  $ git clone git@github.com:Felix45/garden-waste.git
+
+  $ cd garden-waste
+
+```
+
+### Install
+Install all project dependencies by running the command below
+ 
+``` 
+  $ npm install
+```
+### Usage
+Start the pplication server
+``` 
+  $ npm run dev
+```
+
+### Deployment
+- [Visit Application Homepage](http://localhost:5173)
+
+
+
+### Authors
+
+| 👤 Name | Github | Twitter | LinkedIn |
+|:------|:--------|:---------|:----------|
+|Felix Ouma|[@Felix45](https://github.com/Felix45)|[@Felix_Atonoh](https://twitter.com/Felix_Atonoh)|[LinkedIn](https://www.linkedin.com/in/felix-ouma/)|
+
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Felix45/garden-waste/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
