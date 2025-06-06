@@ -38,7 +38,7 @@ const Option = ({ option }) => {
     return (
         <li 
           onClick={() => handleSubmit(id)}
-          className="mb-8 border-2 cursor-pointer border-gray-200 shadow-lg rounded-lg p-4 hover:shadow-xl transition-shadow duration-300 hover:bg-gray-100">
+          className="mb-8 border-2 cursor-pointer border-gray-200 shadow-lg rounded-lg p-4 hover:shadow-xl transition-shadow duration-300 hover:bg-gray-100 overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl">
             <Card
                 title={`${size} Yard Skip`}
                 description={`${hire_period_days} days hire period`}
