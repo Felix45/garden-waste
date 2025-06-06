@@ -1,6 +1,6 @@
 # SKIP HIRE PROJECT
 
-> A complete redesign of the “Choose Your Skip Size” page from the Garden Waste booking flow (found at https://wewantwaste.co.uk), built with React and Tailwind CSS for a clean, modern, and responsive experience.
+> A complete redesign of the “Choose Your Skip Size” page from the Garden Waste booking flow, built with React and Tailwind CSS for a clean, modern, and responsive experience.
 
 
 
