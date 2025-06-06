@@ -13,22 +13,22 @@
 
 ## Approaches & Design
 
-### Clean, Reusable Components**:
+### Clean, Reusable Components
 I broke down the UI into purposeful, reusable React components (`SkipCard`, `SkipList`) improved maintainability and readability.
 
 - `SkipCard` for display logic and styling  
 - `SkipList` to map through provided data
 
-### **Responsive Design**:  
+### Responsive Design
 I Leveraged Tailwind’s utility classes for quick iteration and responsive styling. Custom theme options kept the design consistent.
 
 - Used Tailwind CSS to ensure fluid layouts across mobile/tablet/desktop breakpoints  
 - Card grid adjusts columns and spacing responsively
 
-### **Data Handling & API Integration**
+### Data Handling & API Integration
 I Abstracted API calls into `redux store`, separating concerns and centralizing fetch logic. Skip data is dynamically fetched and handled with `useEffect` and `useState`.
 
-### **Improved UI/UX**:  
+### Improved UI/UX 
 - Modern card design with shadows, rounded corners, and clear CTA  
 - Price and size details emphasized  
 - Interactive hover/focus states boost accessibility
