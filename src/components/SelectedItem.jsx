@@ -27,11 +27,13 @@ const SelectedItem = () => {
                         <p className="text-white order-2 flex-order-2 text-lg my-3 md:order-1">
                             Imagery and information shown throughout this website may not reflect the exact shape or size specification, colours may vary, options and/or accessories may be featured at additional cost.
                         </p>
+                        <div className="order-1 md:order-2 flex justify-end items-center">
                         <div
                             onClick={handleShow}
                             role="button"
-                            className="flex w-full order-1 cursor-pointer justify-end items-center shadow-md p-3 text-2xl w-[48px] h-[48px] font-bold bg-white text-black md:order-2">
+                            className="flex order-1 cursor-pointer justify-center items-center shadow-md p-3 text-2xl w-[48px] h-[48px] font-bold bg-white text-black">
                             <FontAwesomeIcon icon={faClose} />
+                        </div>
                         </div>
                     </div>
                     <div className="flex flex-col text-white md:flex-row md:items-center md:justify-between">
