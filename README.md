@@ -11,6 +11,9 @@
 - Tailwind CSS
 - Vite
 
+## Live Demo
+[Visit online demo](https://skiphire.netlify.app/)
+
 ## Approaches & Design
 
 ### Clean, Reusable Components
